@@ -12,7 +12,7 @@ function my_Function() {
   document.getElementById("Keywords_and_Constructors").innerHTML = "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model + "manufactured in " + Eric.Vehicle_Year;
 }
 
-/* function Ride_Function() {
+function Ride_Function() {
   //ternary operation: it operates on three values.
   var Height, Can_Ride;
   Height = document.getElementById("Height").value;
@@ -20,14 +20,14 @@ function my_Function() {
   document.getElementById("Ride").innerHTML = Can_Ride + " to ride.";
 }
 function count_Function() {
-  //nested function
-  document.getElementById("Counting").innerHTML = Count();
-  function Count() {
-    var Starting_point = 9;
-    function Plus_one() {
-      Starting_point += 1;
-    }
-    Plus_one();
-    return Starting_point;
+   //nested function
+   document.getElementById("Counting").innerHTML = Count();
+   function Count() {
+     var Starting_point = 9;
+     function Plus_one() {
+       Starting_point += 1;
+     }
+     Plus_one();
+     return Starting_point;
+   }
   }
-} */
